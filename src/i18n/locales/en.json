@@ -1,0 +1,125 @@
+{
+  "menu": {
+    "title": "SPACE WARS",
+    "subtitle": "Galactic Strategy Game",
+    "commanderName": "Commander Name",
+    "commanderPlaceholder": "Enter your commander name...",
+    "startGame": "🚀 Conquer the Galaxy",
+    "howToPlay": "📖 How to Play",
+    "leaderboard": "🏆 Leaderboard",
+    "language": "🌍 Language",
+    "errors": {
+      "enterName": "Please enter a username!",
+      "minLength": "Username must be at least 2 characters!",
+      "maxLength": "Username can be at most 20 characters!"
+    }
+  },
+  "howToPlay": {
+    "title": "SPACE WARS - HOW TO PLAY",
+    "subtitle": "Guide to Galactic Domination",
+    "readyButton": "Got it, Ready for Battle! 🚀",
+    "sections": {
+      "basicGameplay": {
+        "title": "🎯 Basic Gameplay",
+        "items": {
+          "objective": "Objective: Conquer all planets and defeat AIs!",
+          "turnSystem": "Turn System: Each player takes turns",
+          "planetSelection": "Planet Selection: Click your planets to select",
+          "attack": "Attack: Click enemy/neutral planets to target",
+          "production": "Soldier Production: Each planet continuously produces soldiers",
+          "multiAttack": "Multi Attack: Select multiple planets for powerful attacks"
+        }
+      },
+      "planetSizes": {
+        "title": "🌍 Planet Sizes",
+        "tiny": "30 soldier capacity\n1/sec production",
+        "small": "60 soldier capacity\n2/sec production",
+        "medium": "100 soldier capacity\n3/sec production",
+        "large": "150 soldier capacity\n4/sec production",
+        "huge": "220 soldier capacity\n5/sec production"
+      },
+      "specialPlanets": {
+        "title": "✨ Special Planet Types (Level 6+)",
+        "energy": "2x fast soldier production\nGold colored pulsing",
+        "fortress": "50% defense bonus\n30% more capacity",
+        "factory": "Gives +1 production bonus\nto adjacent planets",
+        "rare": "2x soldier capacity\n50% slower production",
+        "progressionNote": "🔓 Special planets unlock as levels progress:\nLevel 6: Energy | Level 8: Fortress | Level 12: Factory | Level 16: Rare"
+      },
+      "spaceships": {
+        "title": "🚀 Spaceships",
+        "items": {
+          "orbit": "Orbit: 1 spaceship per 5 soldiers orbits around planets",
+          "attack": "Attack: During attacks, ships fly toward targets",
+          "animation": "Animation: Real-time movement and battle effects",
+          "maximum": "Maximum: Up to 20 spaceships per planet"
+        }
+      },
+      "difficulty": {
+        "title": "🎖️ Difficulty Progression",
+        "items": {
+          "levels1-5": "Levels 1-5: Easy - AIs start with small planets",
+          "levels6-10": "Levels 6-10: Medium - AIs get stronger, special planets unlock",
+          "levels11-15": "Levels 11-15: Hard - AIs start with large planets",
+          "levels16-20": "Levels 16-20: Very Hard - You small, AIs huge planets!"
+        }
+      }
+    }
+  },
+  "game": {
+    "level": "Level",
+    "players": "Players",
+    "gameStatus": "Game Status",
+    "specialPlanets": "Special Planets",
+    "currentTurn": "Turn: {{playerName}}",
+    "thinking": "{{playerName}} Thinking...",
+    "phases": {
+      "selectPlanet": "Select Planet",
+      "multiSelection": "Select Planet (Multi)",
+      "selectTarget": "Select Target",
+      "gameOver": "Game Over",
+      "levelComplete": "Level Complete"
+    },
+    "planetInfo": "{{count}} planets",
+    "specialTypes": {
+      "energy": "Energy: 2x Production",
+      "fortress": "Fortress: +50% Defense",
+      "factory": "Factory: Neighbor Bonus",
+      "rare": "Rare: 2x Capacity",
+      "unlockNote": "Special planets unlock from level 6"
+    },
+    "attackPanel": {
+      "ready": "Attack Ready",
+      "selectTarget": "Select Target",
+      "selected": "Selected: {{count}} planet",
+      "selected_plural": "Selected: {{count}} planets",
+      "soldiers": "Soldiers: {{count}}",
+      "target": "Target: {{owner}} ({{soldiers}})",
+      "neutral": "Neutral",
+      "cancel": "Cancel"
+    },
+    "attackTypes": {
+      "light": "Light Attack",
+      "medium": "Medium Attack",
+      "full": "Full Attack"
+    },
+    "gameOver": {
+      "title": "GAME OVER",
+      "aiWon": "AI won! Level {{level}} failed.",
+      "restart": "Restart"
+    },
+    "levelComplete": {
+      "title": "LEVEL {{level}} COMPLETED!",
+      "congratulations": "Congratulations! You conquered all planets.\nLevel {{level}} successfully completed.",
+      "nextLevel": "Next Level",
+      "restart": "Restart",
+      "finalMessage": "Congratulations {{username}}! You have successfully completed all 20 levels! 🎉🚀"
+    }
+  },
+  "languages": {
+    "en": "English",
+    "tr": "Türkçe",
+    "es": "Español"
+  },
+  "congratulations": "Congratulations {{username}}! You have successfully completed all 20 levels! 🎉🚀"
+} 

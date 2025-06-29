@@ -1,0 +1,125 @@
+{
+  "menu": {
+    "title": "SPACE WARS",
+    "subtitle": "Galaktik Strateji Oyunu",
+    "commanderName": "Komutan Adınız",
+    "commanderPlaceholder": "Komutan adınızı girin...",
+    "startGame": "🚀 Galaksiyi Fethet",
+    "howToPlay": "📖 Nasıl Oynanır",
+    "leaderboard": "🏆 Liderlik Tablosu",
+    "language": "🌍 Dil",
+    "errors": {
+      "enterName": "Lütfen bir kullanıcı adı girin!",
+      "minLength": "Kullanıcı adı en az 2 karakter olmalıdır!",
+      "maxLength": "Kullanıcı adı en fazla 20 karakter olabilir!"
+    }
+  },
+  "howToPlay": {
+    "title": "SPACE WARS - NASIL OYNANIR",
+    "subtitle": "Galaktik Hakimiyetin Rehberi",
+    "readyButton": "Anladım, Savaşa Hazırım! 🚀",
+    "sections": {
+      "basicGameplay": {
+        "title": "🎯 Temel Oynanış",
+        "items": {
+          "objective": "Amaç: Tüm gezegenleri ele geçir ve AI'ları yen!",
+          "turnSystem": "Sıra Sistemi: Her oyuncu sırayla hamle yapar",
+          "planetSelection": "Gezegen Seçimi: Kendi gezegenlerine tıklayarak seç",
+          "attack": "Saldırı: Düşman/tarafsız gezegene tıklayarak hedef belirle",
+          "production": "Asker Üretimi: Her gezegen sürekli asker üretir",
+          "multiAttack": "Çoklu Saldırı: Birden fazla gezegen seçerek güçlü saldırılar yap"
+        }
+      },
+      "planetSizes": {
+        "title": "🌍 Gezegen Boyutları",
+        "tiny": "30 asker kapasitesi\n1/sn üretim",
+        "small": "60 asker kapasitesi\n2/sn üretim",
+        "medium": "100 asker kapasitesi\n3/sn üretim",
+        "large": "150 asker kapasitesi\n4/sn üretim",
+        "huge": "220 asker kapasitesi\n5/sn üretim"
+      },
+      "specialPlanets": {
+        "title": "✨ Özel Gezegen Türleri (Bölüm 6+)",
+        "energy": "2x hızlı asker üretimi\nAltın renkli yanıp söner",
+        "fortress": "%50 savunma bonusu\n%30 fazla kapasite",
+        "factory": "Komşu gezegenlere\n+1 üretim bonusu",
+        "rare": "2x asker kapasitesi\n%50 daha yavaş üretim",
+        "progressionNote": "🔓 Özel gezegenler bölüm ilerledikçe açılır:\nBölüm 6: Enerji | Bölüm 8: Kale | Bölüm 12: Fabrika | Bölüm 16: Nadir"
+      },
+      "spaceships": {
+        "title": "🚀 Uzay Gemileri",
+        "items": {
+          "orbit": "Yörünge: Her 5 asker için 1 uzay gemisi gezegenin etrafında döner",
+          "attack": "Saldırı: Saldırı sırasında gemiler hedefe doğru uçar",
+          "animation": "Animasyon: Gerçek zamanlı hareket ve savaş efektleri",
+          "maximum": "Maksimum: Gezegen başına en fazla 20 uzay gemisi"
+        }
+      },
+      "difficulty": {
+        "title": "🎖️ Zorluk Progresyonu",
+        "items": {
+          "levels1-5": "Bölüm 1-5: Kolay - AI'lar küçük gezegenlerle başlar",
+          "levels6-10": "Bölüm 6-10: Orta - AI'lar güçlenir, özel gezegenler açılır",
+          "levels11-15": "Bölüm 11-15: Zor - AI'lar büyük gezegenlerle başlar",
+          "levels16-20": "Bölüm 16-20: Çok Zor - Sen küçük, AI'lar dev gezegenlerle!"
+        }
+      }
+    }
+  },
+  "game": {
+    "level": "Bölüm",
+    "players": "Oyuncular",
+    "gameStatus": "Oyun Durumu",
+    "specialPlanets": "Özel Gezegenler",
+    "currentTurn": "Sıra: {{playerName}}",
+    "thinking": "{{playerName}} Düşünüyor...",
+    "phases": {
+      "selectPlanet": "Gezegen Seçin",
+      "multiSelection": "Gezegen Seçin (Çoklu)",
+      "selectTarget": "Hedef Seçin",
+      "gameOver": "Oyun Bitti",
+      "levelComplete": "Bölüm Tamamlandı"
+    },
+    "planetInfo": "{{count}} gezegen",
+    "specialTypes": {
+      "energy": "Enerji: 2x Üretim",
+      "fortress": "Kale: +%50 Savunma",
+      "factory": "Fabrika: Komşu Bonus",
+      "rare": "Nadir: 2x Kapasite",
+      "unlockNote": "Bölüm 6'dan itibaren özel gezegenler açılır"
+    },
+    "attackPanel": {
+      "ready": "Saldırı Hazır",
+      "selectTarget": "Hedef Seçin",
+      "selected": "Seçili: {{count}} gezegen",
+      "selected_plural": "Seçili: {{count}} gezegen",
+      "soldiers": "Asker: {{count}}",
+      "target": "Hedef: {{owner}} ({{soldiers}})",
+      "neutral": "Tarafsız",
+      "cancel": "İptal"
+    },
+    "attackTypes": {
+      "light": "Hafif Saldırı",
+      "medium": "Orta Saldırı",
+      "full": "Tam Saldırı"
+    },
+    "gameOver": {
+      "title": "OYUN BİTTİ",
+      "aiWon": "AI kazandı! Bölüm {{level}} başarısız.",
+      "restart": "Yeniden Başla"
+    },
+    "levelComplete": {
+      "title": "BÖLÜM {{level}} TAMAMLANDI!",
+      "congratulations": "Tebrikler! Tüm gezegenleri ele geçirdiniz.\nBölüm {{level}} başarıyla tamamlandı.",
+      "nextLevel": "Sonraki Bölüm",
+      "restart": "Yeniden Başla",
+      "finalMessage": "Tebrikler {{username}}! Tüm 20 bölümü başarıyla tamamladınız! 🎉🚀"
+    }
+  },
+  "languages": {
+    "en": "English",
+    "tr": "Türkçe",
+    "es": "Español"
+  },
+  "congratulations": "Tebrikler {{username}}! Tüm 20 bölümü başarıyla tamamladınız! 🎉🚀"
+} 

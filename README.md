@@ -1,46 +1,123 @@
-# Getting Started with Create React App
+# SpaceWars - Gezegen Fetih Strateji Oyunu
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Modern web teknolojileri ile geliştirilmiş gerçek zamanlı strateji oyunu.
 
-## Available Scripts
+## 🎮 Oyun Hakkında
 
-In the project directory, you can run:
+SpaceWars, oyuncuların gezegenler arasında asker üretip savaş yaptığı bir strateji oyunudur. Her oyuncu kendi gezegeniyle başlar ve diğer gezegenleri ele geçirmeye çalışır.
 
-### `npm start`
+### 🎯 Oyun Amacı
+- Tüm gezegenlerin kontrolünü ele geçirin
+- Asker üretim hızını optimize edin
+- Stratejik saldırılar planlayın
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Özellikler
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Temel Mekanikler
+- **Asker Üretimi**: Gezegenler sürekli asker üretir
+- **Gezegen Boyutları**: Küçük, Orta, Büyük gezegenler
+- **Saldırı Sistemi**: %25, %50, %100 saldırı güçleri
+- **AI Rakip**: Akıllı yapay zeka sistemi
 
-### `npm test`
+### Görsel Özellikler
+- Modern uzay teması
+- Animasyonlu yıldız arka planı
+- Gezegen efektleri ve vurgular
+- Sıra göstergesi ve durum bilgileri
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎮 Nasıl Oynanır
 
-### `npm run build`
+1. **Gezegen Seçimi**: Kendi gezegeninizi (yeşil renkli) seçin
+2. **Hedef Belirleme**: Saldırmak istediğiniz gezegeni seçin
+3. **Saldırı Gücü**: %25, %50 veya %100 saldırı gücü seçin
+4. **Strateji**: Tüm gezegenleri ele geçirin!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Kontroller
+- **Mouse**: Gezegen seçimi ve etkileşim
+- **Saldırı Butonları**: %25, %50, %100 saldırı güçleri
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Teknik Detaylar
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Kullanılan Teknolojiler
+- **React 18**: Modern UI framework
+- **TypeScript**: Tip güvenliği
+- **Styled Components**: CSS-in-JS styling
+- **Custom Hooks**: Oyun mantığı yönetimi
 
-### `npm run eject`
+### Proje Yapısı
+```
+src/
+├── components/          # UI bileşenleri
+│   ├── GameBoard.tsx   # Ana oyun alanı
+│   ├── Planet.tsx      # Gezegen bileşeni
+│   └── AttackButtons.tsx # Saldırı butonları
+├── hooks/              # Custom hooks
+│   └── useGameLogic.ts # Oyun mantığı
+├── types/              # TypeScript tipleri
+│   └── game.ts         # Oyun tipleri
+└── App.tsx             # Ana uygulama
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🚀 Kurulum ve Çalıştırma
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Gereksinimler
+- Node.js 16+ 
+- npm veya yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Kurulum
+```bash
+# Bağımlılıkları yükle
+npm install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Geliştirme sunucusunu başlat
+npm start
+```
 
-## Learn More
+### Build
+```bash
+# Production build
+npm run build
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎯 Gelecek Özellikler
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Planlanan Geliştirmeler
+- [ ] Çoklu oyuncu desteği (PvP)
+- [ ] Farklı oyun modları
+- [ ] Ses efektleri
+- [ ] Animasyonlu saldırı efektleri
+- [ ] Gezegen sınıfları (Savunma, Üretim, Saldırı)
+- [ ] Teknoloji ağacı
+- [ ] Turnuva sistemi
+
+### Monetizasyon
+- [ ] Reklam entegrasyonu
+- [ ] Premium özellikler
+- [ ] Kozmetik ürünler
+- [ ] Özel haritalar
+
+## 📱 Platform Desteği
+
+- ✅ Web (Desktop/Mobile)
+- 🔄 React Native (Gelecek)
+- 🔄 PWA (Progressive Web App)
+
+## 🤝 Katkıda Bulunma
+
+1. Fork yapın
+2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
+3. Commit yapın (`git commit -m 'Add amazing feature'`)
+4. Push yapın (`git push origin feature/amazing-feature`)
+5. Pull Request oluşturun
+
+## 📄 Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır.
+
+## 👨‍💻 Geliştirici
+
+**SpaceWars** - Modern web tabanlı strateji oyunu
+
+---
+
+⭐ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!

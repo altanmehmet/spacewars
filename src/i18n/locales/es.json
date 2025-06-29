@@ -1,0 +1,125 @@
+{
+  "menu": {
+    "title": "SPACE WARS",
+    "subtitle": "Juego de Estrategia Galáctica",
+    "commanderName": "Nombre del Comandante",
+    "commanderPlaceholder": "Ingresa tu nombre de comandante...",
+    "startGame": "🚀 Conquistar la Galaxia",
+    "howToPlay": "📖 Cómo Jugar",
+    "leaderboard": "🏆 Tabla de Líderes",
+    "language": "🌍 Idioma",
+    "errors": {
+      "enterName": "¡Por favor ingresa un nombre de usuario!",
+      "minLength": "¡El nombre de usuario debe tener al menos 2 caracteres!",
+      "maxLength": "¡El nombre de usuario puede tener como máximo 20 caracteres!"
+    }
+  },
+  "howToPlay": {
+    "title": "SPACE WARS - CÓMO JUGAR",
+    "subtitle": "Guía para la Dominación Galáctica",
+    "readyButton": "¡Entendido, Listo para la Batalla! 🚀",
+    "sections": {
+      "basicGameplay": {
+        "title": "🎯 Jugabilidad Básica",
+        "items": {
+          "objective": "Objetivo: ¡Conquista todos los planetas y derrota a las IAs!",
+          "turnSystem": "Sistema de Turnos: Cada jugador toma turnos",
+          "planetSelection": "Selección de Planetas: Haz clic en tus planetas para seleccionar",
+          "attack": "Ataque: Haz clic en planetas enemigos/neutrales para apuntar",
+          "production": "Producción de Soldados: Cada planeta produce soldados continuamente",
+          "multiAttack": "Multi Ataque: Selecciona múltiples planetas para ataques poderosos"
+        }
+      },
+      "planetSizes": {
+        "title": "🌍 Tamaños de Planetas",
+        "tiny": "30 capacidad de soldados\n1/seg producción",
+        "small": "60 capacidad de soldados\n2/seg producción",
+        "medium": "100 capacidad de soldados\n3/seg producción",
+        "large": "150 capacidad de soldados\n4/seg producción",
+        "huge": "220 capacidad de soldados\n5/seg producción"
+      },
+      "specialPlanets": {
+        "title": "✨ Tipos de Planetas Especiales (Nivel 6+)",
+        "energy": "2x producción rápida de soldados\nPulsa dorado",
+        "fortress": "50% bonificación de defensa\n30% más capacidad",
+        "factory": "Da +1 bonificación de producción\na planetas adyacentes",
+        "rare": "2x capacidad de soldados\n50% producción más lenta",
+        "progressionNote": "🔓 Los planetas especiales se desbloquean según avanzan los niveles:\nNivel 6: Energía | Nivel 8: Fortaleza | Nivel 12: Fábrica | Nivel 16: Raro"
+      },
+      "spaceships": {
+        "title": "🚀 Naves Espaciales",
+        "items": {
+          "orbit": "Órbita: 1 nave espacial por cada 5 soldados orbita alrededor de planetas",
+          "attack": "Ataque: Durante los ataques, las naves vuelan hacia los objetivos",
+          "animation": "Animación: Movimiento en tiempo real y efectos de batalla",
+          "maximum": "Máximo: Hasta 20 naves espaciales por planeta"
+        }
+      },
+      "difficulty": {
+        "title": "🎖️ Progresión de Dificultad",
+        "items": {
+          "levels1-5": "Niveles 1-5: Fácil - Las IAs comienzan con planetas pequeños",
+          "levels6-10": "Niveles 6-10: Medio - Las IAs se fortalecen, se desbloquean planetas especiales",
+          "levels11-15": "Niveles 11-15: Difícil - Las IAs comienzan con planetas grandes",
+          "levels16-20": "Niveles 16-20: Muy Difícil - ¡Tú pequeño, IAs planetas enormes!"
+        }
+      }
+    }
+  },
+  "game": {
+    "level": "Nivel",
+    "players": "Jugadores",
+    "gameStatus": "Estado del Juego",
+    "specialPlanets": "Planetas Especiales",
+    "currentTurn": "Turno: {{playerName}}",
+    "thinking": "{{playerName}} Pensando...",
+    "phases": {
+      "selectPlanet": "Seleccionar Planeta",
+      "multiSelection": "Seleccionar Planeta (Multi)",
+      "selectTarget": "Seleccionar Objetivo",
+      "gameOver": "Juego Terminado",
+      "levelComplete": "Nivel Completado"
+    },
+    "planetInfo": "{{count}} planetas",
+    "specialTypes": {
+      "energy": "Energía: 2x Producción",
+      "fortress": "Fortaleza: +50% Defensa",
+      "factory": "Fábrica: Bonificación Vecina",
+      "rare": "Raro: 2x Capacidad",
+      "unlockNote": "Los planetas especiales se desbloquean desde el nivel 6"
+    },
+    "attackPanel": {
+      "ready": "Ataque Listo",
+      "selectTarget": "Seleccionar Objetivo",
+      "selected": "Seleccionado: {{count}} planeta",
+      "selected_plural": "Seleccionados: {{count}} planetas",
+      "soldiers": "Soldados: {{count}}",
+      "target": "Objetivo: {{owner}} ({{soldiers}})",
+      "neutral": "Neutral",
+      "cancel": "Cancelar"
+    },
+    "attackTypes": {
+      "light": "Ataque Ligero",
+      "medium": "Ataque Medio",
+      "full": "Ataque Total"
+    },
+    "gameOver": {
+      "title": "JUEGO TERMINADO",
+      "aiWon": "¡La IA ganó! Nivel {{level}} fallido.",
+      "restart": "Reiniciar"
+    },
+    "levelComplete": {
+      "title": "¡NIVEL {{level}} COMPLETADO!",
+      "congratulations": "¡Felicidades! Conquistaste todos los planetas.\nNivel {{level}} completado exitosamente.",
+      "nextLevel": "Siguiente Nivel",
+      "restart": "Reiniciar",
+      "finalMessage": "¡Felicidades {{username}}! ¡Has completado exitosamente todos los 20 niveles! 🎉🚀"
+    }
+  },
+  "languages": {
+    "en": "English",
+    "tr": "Türkçe",
+    "es": "Español"
+  },
+  "congratulations": "¡Felicidades {{username}}! ¡Has completado exitosamente todos los 20 niveles! 🎉🚀"
+} 
