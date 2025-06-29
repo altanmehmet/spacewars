@@ -64,9 +64,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/spacewars.git"
+    "url": "https://github.com/YOUR_USERNAME/spacewars.git"
   },
-  "homepage": "https://yourusername.github.io/spacewars",
+  "homepage": "https://YOUR_USERNAME.github.io/spacewars",
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
