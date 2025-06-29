@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Background space -->
+  <circle cx="16" cy="16" r="16" fill="#0a0a2e"/>
+  
+  <!-- Stars -->
+  <circle cx="6" cy="8" r="0.5" fill="#ffffff"/>
+  <circle cx="24" cy="6" r="0.5" fill="#ffffff"/>
+  <circle cx="28" cy="20" r="0.5" fill="#ffffff"/>
+  <circle cx="4" cy="25" r="0.5" fill="#ffffff"/>
+  
+  <!-- Main planet -->
+  <circle cx="16" cy="16" r="8" fill="#4a90e2"/>
+  <circle cx="16" cy="16" r="8" fill="url(#planetGradient)" opacity="0.8"/>
+  
+  <!-- Planet rings -->
+  <ellipse cx="16" cy="16" rx="11" ry="3" fill="none" stroke="#ffd700" stroke-width="0.8" opacity="0.6"/>
+  
+  <!-- Spaceship -->
+  <g transform="translate(22, 10) rotate(45)">
+    <polygon points="0,0 4,1 3,3 1,4" fill="#ff6b6b"/>
+    <polygon points="0,0 2,0.5 1.5,1.5 0.5,2" fill="#ff8e8e"/>
+    <circle cx="0" cy="0" r="0.5" fill="#ffffff"/>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <radialGradient id="planetGradient" cx="0.3" cy="0.3">
+      <stop offset="0%" stop-color="#87ceeb"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </radialGradient>
+  </defs>
+</svg>
