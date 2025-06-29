@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/spacewars/static/css/main.3ad51c64.css",
+    "main.js": "/spacewars/static/js/main.48f764e3.js",
+    "static/js/453.eb793592.chunk.js": "/spacewars/static/js/453.eb793592.chunk.js",
+    "index.html": "/spacewars/index.html",
+    "main.3ad51c64.css.map": "/spacewars/static/css/main.3ad51c64.css.map",
+    "main.48f764e3.js.map": "/spacewars/static/js/main.48f764e3.js.map",
+    "453.eb793592.chunk.js.map": "/spacewars/static/js/453.eb793592.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ad51c64.css",
+    "static/js/main.48f764e3.js"
+  ]
+}
